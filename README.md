@@ -17,15 +17,14 @@ CONSIDERATIONS
                                           - app.component.spec.ts
                                           - app.component.ts
                                           - app.module.ts
-
 FUNCTIONALITY
 
-  The app its calling the API succesfully. Once the web navigator has opened the project;
+    The app its calling the API succesfully. Once the web navigator has opened the project;
                                           - Click (right-click) 
                                           - Select "Inspect"
                                           - Go to "Console"
-                                          - There you can verify that everytime the app is reloaded, it calls a new "Object"-
-                                  
+                                          - There you can verify that everytime the app is reloaded, it calls a new "Object"
+
 ERRORS
 
   The app its calling the API succesfully but its just capable to show data on "Console".
