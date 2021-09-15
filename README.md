@@ -9,6 +9,7 @@ Application that consumes REST API services developed with Angular 11. In this e
 CONSIDERATIONS
 
     The files where code was written are: 
+
     - product.service.spec.ts (inside "services" Folder) 
     - product.service.ts (inside "services" Folder)
     - app.component.css
@@ -21,10 +22,12 @@ FUNCTIONALITY
 
     The app its calling the API succesfully.
     Once the web navigator has opened the project;
+    
     - Click (right-click) 
     - Select "Inspect"
     - Go to "Console"
     - There you can verify that everytime the app is reloaded, it calls a new "Object"
+    
 ERRORS
 
     The app its calling the API succesfully, 
