@@ -2,26 +2,35 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
-## Development server
 
+## Kunder Banner (TestAngular11)
+Application that consumes REST API services developed with Angular 11. In this exercise you have to get variables from an API web service.
+
+CONSIDERATIONS
+
+    To see the code open the project folder "nutrialusTest" from Visual Studio Code (recommended).
+    The files where code was written are: -
+                                          - product.service.spec.ts (inside "services" Folder) 
+                                          - product.service.ts (inside "services" Folder)
+                                          - app.component.css
+                                          - app.component.html
+                                          - app.component.spec.ts
+                                          - app.component.ts
+                                          - app.module.ts
+
+FUNCTIONALITY
+
+  The app its calling the API succesfully. Once the web navigator has opened the project;
+                                          - Click (right-click) 
+                                          - Select "Inspect"
+                                          - Go to "Console"
+                                          - There you can verify that everytime the app is reloaded, it calls a new "Object"-
+                                  
+ERRORS
+
+  The app its calling the API succesfully but its just capable to show data on "Console".
+                                         
+                                          
+## To open project type in terminal:
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
